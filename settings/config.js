@@ -2,7 +2,7 @@ require("dotenv").config();
 const { resolve } = require("path");
 
 module.exports = {
-    TOKEN: process.env.TOKEN || "YOUR_TOKEN",  // your bot token
+    TOKEN: process.env.TOKEN || "MTExOTAxNTYyOTUwNTE2NzUxMQ.GqA61Z.DZyQEazAVa-DRWyG2kIrYxLPYTrSCTxMCWrJSA",  // your bot token
     EMBED_COLOR: process.env.EMBED_COLOR || "#000001", //<= default is "#000001"
 
     SEARCH_DEFAULT: ["jvke", "I love you 3000", "justin bieber", "post malone", "anime song"],
